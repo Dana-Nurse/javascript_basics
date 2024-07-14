@@ -1,3 +1,12 @@
 // The 7 Primitive Data Types 
 
-// Primitive data type is basically a basic type of data type that reprsents 
+// Primitive data type is basically a basic type of data type that reprsents the most common. The main three are strings, booleans, and numbers.
+
+// These have very special use cases. bigint - a special type of number in JS and symbol - a special immutable data type]
+// These will not be used in javascript basics, well in this repo.
+
+//JS is also unique that it It is sometimes useful for programming languages to represent the lack of a value. 
+// So, JS makes use of two other data types, undefined and null.
+
+"This is a string, it also uses quotation marks like python, single or double"
+, 

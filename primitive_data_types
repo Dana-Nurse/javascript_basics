@@ -9,4 +9,33 @@
 // So, JS makes use of two other data types, undefined and null.
 
 "This is a string, it also uses quotation marks like python, single or double"
-, 
+
+
+***Escaping Characters*** 
+// We may sometimes need to use a string that uses both single and double quotation marks.
+// So, we would use escaping characters for this.  
+// We use the backslash \ character to tell JS the that following character should not be used to end the string.
+
+e.g. 'Let\'s escape the single quote!'
+
+Test: Create the following string:
+    '"Hello World!" said the developer's robot.'
+
+Answer: 
+    '\"Hello World!\" said the developer\'s robot.'
+
+
+***Booleans***
+true or false without quotation marks
+
+***Numbers***
+Integers - whole numbers e.g. 46
+
+Floating point - decimal values that use full stops. e.g. 3.46
+
+Sometimes, we might find ourselves trying to express a value 
+that isn't a number as a number—for example, when we try to
+multiply two strings together. JavaScript provides a 
+special value for these situations called "Not a Number", 
+or NaN.
+

@@ -1,1 +1,76 @@
+***Declaring a Variable***
+Declaration: This is like naming your magical item (variable) so you know what to call it. For instance, you might declare a label called broomstick.
 
+Initialisation: This is like adding a specific detail or property to your magical item (variable). For example, you might set your broomstick to be of type Nimbus 2000.
+
+Assignment: This is the process of setting that detail or property to your item.
+
+     e.g. const broomstick = 'Nimbus 2000';
+
+Code broken down:
+
+- We declared a variable named broomstick.
+- We initialised it with the value Nimbus 2000.
+
+So basically We assigned the value Nimbus 2000 to the variable broomstick.
+
+The = symbol in JavaScript is the assignment operator.
+
+***Declaring Variables Lab***
+
+***Reassigning Variables***
+
+Just as you might update the spell on your wand or switch to a different broomstick, 
+you can update the value of a variable in JavaScript. Here’s how:
+
+    let broomstick = 'Nimbus 2000';
+    broomstick = 'Firebolt';
+
+Initially, we declared the variable broomstick with the value 'Nimbus 2000'. 
+We then reassigned it to 'Firebolt'. The value of broomstick is now 'Firebolt'.
+
+const vs let
+
+In the example above, we used the keyword let to declare the variable. 
+This allows us to change the value of the variable later on.
+
+However, if we use const to declare a variable, we are indicating that its value should not change. 
+If we try to reassign a new value to a const variable, it will result in an error:
+
+    const wand = 'Elder Wand';
+    wand = 'Holly Wand'; // This code will cause an error!
+
+Key Points:
+- Use const when you are sure the variable's value should not change. This helps make your code more predictable and avoids accidental errors.
+- Use let when you need to reassign a value to a variable.
+
+The var Keyword- You might encounter var in older JavaScript code. 
+Although it’s still valid, it’s generally not recommended in modern JavaScript (2015+). 
+
+***Reassigning Variables Lab***
+
+0208 297 7933 - simon lawyer 
+077 438 35340
+
+e.g. To reassign the lunch variable to a different value, you need to use the let keyword instead of const, as const creates a variable whose value cannot be changed once it is set.
+
+const lunch = 'eggs' 
+Here’s how you can modify the code to allow reassigning the lunch variable:
+
+Change const to let so the variable can be reassigned.
+Assign a new value to the lunch variable.
+For example, if you want to change the value to 'sandwich', you would update the code as follows:
+
+javascript
+Copy code
+let lunch = 'eggs'; // Declare the variable with let to allow reassignment
+lunch = 'sandwich'; // Reassign the variable to a new value
+This code snippet:
+
+Declares the lunch variable with an initial value of 'eggs'.
+Reassigns lunch to 'sandwich', reflecting the change that there are no eggs available.
+This way, you’ve successfully changed the value of lunch to something else.
+
+***Naming Conventions***
+
+***Naming Conventions Lab***
